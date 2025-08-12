@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import BookingsAPIService from '../services/BookingAPIService';
+import BookingsAPIService from '../services/BookingAPIService.js';
 import { Users, Search, Eye, Edit, Trash2 } from 'lucide-react';
 import { Card, CardContent, CardHeader } from '../components/ui/Card';
 import { Button } from '../components/ui/Button'; // ✅ Import your Button component
